@@ -1,0 +1,107 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0" version="29.2.7">
+  <diagram name="第 1 页" id="FXNJxPWwyLfPNbIRhIF6">
+    <mxGraphModel dx="938" dy="660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NjVin-8ukJa1pzteaH5S-30" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" value="开始" vertex="1">
+          <mxGeometry height="30" width="80" x="190" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NjVin-8ukJa1pzteaH5S-31" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" value="初始化参数" vertex="1">
+          <mxGeometry height="50" width="140" x="160" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NjVin-8ukJa1pzteaH5S-32" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" value="每只蚂蚁从起点出发" vertex="1">
+          <mxGeometry height="50" width="200" x="130" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="NjVin-8ukJa1pzteaH5S-33" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" value="根据信息素和启发式选择下一城市" vertex="1">
+          <mxGeometry height="80" width="260" x="20" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="NjVin-8ukJa1pzteaH5S-34" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" value="路径是否完成？" vertex="1">
+          <mxGeometry height="170" width="170" x="60" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="NjVin-8ukJa1pzteaH5S-35" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" value="计算路径长度" vertex="1">
+          <mxGeometry height="50" width="160" x="70" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="NjVin-8ukJa1pzteaH5S-36" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" value="更新信息素" vertex="1">
+          <mxGeometry height="50" width="140" x="30" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="NjVin-8ukJa1pzteaH5S-37" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" value="是否达到终止件？" vertex="1">
+          <mxGeometry height="60" width="200" x="135" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="NjVin-8ukJa1pzteaH5S-38" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" value="输出最优解" vertex="1">
+          <mxGeometry height="50" width="140" x="160" y="1220" as="geometry" />
+        </mxCell>
+        <mxCell id="NjVin-8ukJa1pzteaH5S-39" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" value="结束" vertex="1">
+          <mxGeometry height="50" width="90" x="190" y="1330" as="geometry" />
+        </mxCell>
+        <mxCell id="NjVin-8ukJa1pzteaH5S-40" edge="1" parent="1" source="NjVin-8ukJa1pzteaH5S-30" style="curved=1;startArrow=none;endArrow=block;exitX=0.49;exitY=1;entryX=0.5;entryY=0;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" target="NjVin-8ukJa1pzteaH5S-31" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NjVin-8ukJa1pzteaH5S-41" edge="1" parent="1" source="NjVin-8ukJa1pzteaH5S-31" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" target="NjVin-8ukJa1pzteaH5S-32" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NjVin-8ukJa1pzteaH5S-42" edge="1" parent="1" source="NjVin-8ukJa1pzteaH5S-32" style="curved=1;startArrow=none;endArrow=block;exitX=0.29;exitY=1;entryX=0.5;entryY=0;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" target="NjVin-8ukJa1pzteaH5S-33" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="230" />
+              <mxPoint x="150" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NjVin-8ukJa1pzteaH5S-43" edge="1" parent="1" source="NjVin-8ukJa1pzteaH5S-33" style="curved=1;startArrow=none;endArrow=block;exitX=0.47;exitY=1;entryX=0.44;entryY=0;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" target="NjVin-8ukJa1pzteaH5S-34" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NjVin-8ukJa1pzteaH5S-44" edge="1" parent="1" source="NjVin-8ukJa1pzteaH5S-34" style="curved=1;startArrow=none;endArrow=block;exitX=0.79;exitY=0;entryX=0.64;entryY=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" target="NjVin-8ukJa1pzteaH5S-33" value="否">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NjVin-8ukJa1pzteaH5S-45" edge="1" parent="1" source="NjVin-8ukJa1pzteaH5S-34" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" target="NjVin-8ukJa1pzteaH5S-35" value="是">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NjVin-8ukJa1pzteaH5S-46" edge="1" parent="1" source="NjVin-8ukJa1pzteaH5S-35" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" target="NjVin-8ukJa1pzteaH5S-36" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NjVin-8ukJa1pzteaH5S-47" edge="1" parent="1" source="NjVin-8ukJa1pzteaH5S-36" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.16;entryY=0;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" target="NjVin-8ukJa1pzteaH5S-37" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="150" y="930" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NjVin-8ukJa1pzteaH5S-48" edge="1" parent="1" source="NjVin-8ukJa1pzteaH5S-37" style="curved=1;startArrow=none;endArrow=block;exitX=0.83;exitY=0;entryX=0.71;entryY=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" target="NjVin-8ukJa1pzteaH5S-32" value="否">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="930" />
+              <mxPoint x="320" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NjVin-8ukJa1pzteaH5S-49" edge="1" parent="1" source="NjVin-8ukJa1pzteaH5S-37" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" target="NjVin-8ukJa1pzteaH5S-38" value="是">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NjVin-8ukJa1pzteaH5S-50" edge="1" parent="1" source="NjVin-8ukJa1pzteaH5S-38" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.49;entryY=0;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" target="NjVin-8ukJa1pzteaH5S-39" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
